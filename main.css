@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+h1 {
+    color: #DA4C66;
+    font-family: Koulen;
+    font-size: 80px;
+}
+
+body {
+    background-color: #3F3557;
+}
+
+header {
+    margin-top: 132px;
+    text-align: center;
+}
+
+header button {
+    background-color: #8F3C68;
+    border: none;
+    padding: 4px 16px;
+    color: #EEE0D2;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container form {
+    text-align: center;
+    margin-top: 28px;
+    margin: 24px auto;
+    display: none;
+}
+
+.adicionando_nova {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    margin-top: 8px;
+}
+
+form input {
+    padding: 8px;
+    color: #3F3557;
+    background-color: #EEE0D2;
+}
+
+form h2 {
+    color: #EEE0D2;
+}
+
+#add_button,
+#cancel_button {
+    color: #DA4C66;
+    font-family: Material Icons;
+    font-size: 20px;
+    background: none;
+    border: none;
+    justify-content: center;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+li {
+    width: 580px;
+    margin: 12px auto;
+    list-style: none;
+    align-content: center;
+    color: #EEE0D2;
+}
+
+.stroked {
+    color: rgba(238, 224, 210, 0.50);
+    text-decoration: line-through;
+}
+
+li input {
+    margin-right: 12px;
+}
