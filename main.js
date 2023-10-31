@@ -11,13 +11,17 @@ $(document).ready(function() {
         e.preventDefault();
         const input = $('#new_task').val();
         console.log(input);
+        const divItem = $('<div class="item"></div>');
         const novoItem = $('<li></li>');
         $(`<p>${input}</p>`).appendTo(novoItem);
-        $(novoItem).appendTo('ul');
+        $(novoItem).appendTo(divItem);
+        $(divItem).appendTo('ul');
+
         $(`#new_task`).val('');
     })
 
-    $('.item').click(function () {
-        $('li').toggleClass('stroked');
+
+    $('ul').on('click', '.item', function () {
+        $(this).toggleClass('stroked');
     })
 })
