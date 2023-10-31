@@ -79,7 +79,7 @@ li {
 }
 
 .stroked {
-    color: rgba(238, 224, 210, 0.50);
+    opacity: 50%;
     text-decoration: line-through;
 }
 
